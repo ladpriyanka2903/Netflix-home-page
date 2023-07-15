@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   background: #000;
+   color: #fff;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 7px 3%;
+}
+.logo{
+    height: 20px;
+    cursor: pointer;
+}
+nav button {
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    background: #db0001;
+    color: #fff;
+    padding: 9px 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border-style: solid;
+    border: 1px solid #fff;
+    padding: 7px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.language-btn img{
+    width: 12px;
+    margin-left: 5px;
+}
+.header-cotainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 80px;
+}
+.header-cotainer h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+    max-width: 600px;
+}
+.header-cotainer h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
